@@ -1,0 +1,133 @@
+#home{
+    background-image: url("home.jpg");
+    opacity: 0.9;
+    width: 100vw;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2%;
+    margin-left: -1%;
+    padding-bottom: 10%;
+    
+
+}
+#main{
+    background-color: rgba(0,0,0,0.4);
+}
+.fas{
+    font-size: 20px;
+    color: #f7941d;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+ul{
+    
+    display: flex;
+    padding-left: 20%;
+    padding-top: 2%;
+    font-size: 1.5rem;
+    
+}
+
+a{
+    
+    font-weight: bold;
+    color:#f7941d;
+    cursor:pointer;
+    text-decoration: unset;
+}
+li{
+    margin-left: 20%;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#navbar{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+    background-color:rgba(0,0,0,0.9);
+    border-bottom:5px,solid, #f7941d;
+}
+#home-content{
+    padding-top: 20%;
+    padding-left: 23%;
+    padding-right: 10%;
+    color: white;
+}
+button{
+    background-color: #f7941d;
+    height: 50px;
+    width: 170px;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 16%;
+    border: 3px solid #f7941d;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+#review-heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #f7941d;
+
+}
+table{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+td{
+    
+    padding-top: 5%;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.food{
+    width: 25%;
+    /* border: 3px solid #f7941d; */
+    text-align: justify;
+    margin: 3%;
+    
+}
+#contact-detail{
+    background-image: url("home-bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: white;
+    font-size: 20px;
+}
+form{
+    background-color: rgba(0,0,0,0.6);
+    margin-left: 25%;
+    padding-left: 15%;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    width: 40vw;
+
+}
+input{
+    width: 315px;
+    height: 40px;
+   
+    border: 4px solid #f7941d;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
